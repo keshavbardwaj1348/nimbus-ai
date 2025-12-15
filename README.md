@@ -1,16 +1,93 @@
-# React + Vite
+# ⚡ NimbusAI – Marketing Website & Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NimbusAI is a modern SaaS marketing website built using **React** and **Tailwind CSS**.  
+It showcases a technology product with a homepage, feature pages, landing page, and contact page — following real-world SaaS UI and UX patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 (Add deployment link here after Step 2)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Modern **Homepage** with hero section and product overview
+- **Feature pages** with dynamic routing
+- High-conversion **Landing page**
+- Clean **Contact page** with form
+- Global **Call-To-Action** component
+- Responsive design (mobile → desktop)
+- Subtle animations and hover effects
+- Clean, reusable component architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **Animations:** Framer Motion
+- **Images:** Unsplash
+- **Forms:** Basic HTML (no backend)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── GlobalCTA.jsx
+│ └── PageWrapper.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Feature.jsx
+│ ├── Landing.jsx
+│ └── Contact.jsx
+├── data/
+│ └── features.js
+├── App.jsx
+└── index.css
+
+yaml
+Copy code
+
+---
+
+## ▶️ Getting Started (Local Setup)
+
+```bash
+git clone https://github.com/keshavbardwaj1348/nimbus-ai.git
+cd nimbus-ai
+npm install
+npm run dev
+Then open:
+👉 http://localhost:5173
+
+🎯 Purpose of This Project
+This project was built to:
+
+Learn modern frontend development
+
+Practice React + Tailwind
+
+Understand SaaS UI patterns
+
+Create a portfolio-ready project
+
+📌 Future Improvements
+SEO optimization
+
+Pricing page
+
+Backend form handling
+
+Authentication
+
+Next.js migration
+
+👤 Author
+Keshav Bardwaj
+GitHub: https://github.com/keshavbardwaj1348

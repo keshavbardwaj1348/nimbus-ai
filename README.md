@@ -6,7 +6,7 @@ It showcases a technology product with a homepage, feature pages, landing page, 
 ---
 
 ## 🚀 Live Demo
-👉 (Add deployment link here after Step 2)
+👉 https://nimbus-ai-snowy.vercel.app/
 
 ---
 
